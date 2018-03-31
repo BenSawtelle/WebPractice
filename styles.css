@@ -1,0 +1,48 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-Image: url("fall_.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#navigationBar {
+	background-color: black;
+	height: 60px;
+	width: 100%;
+}
+
+ul.navigationBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li.navigationBar {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li.navigationBar:last-child{
+	border-right: none;
+}
+
+
+
+
+.navigationButton {
+	background-color: lightCoral;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	margin: 5px 10px;
+	cursor: pointer;
+}

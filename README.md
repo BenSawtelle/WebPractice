@@ -1,3 +1,3 @@
 # WebPractice
 
-Messing around with html, css, javascript, node.js, maybe java?
+Messing around with html, css, javascript, node.js

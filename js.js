@@ -53,7 +53,7 @@ canvas.height = 400;
 mainImage = new Image();
 mainImage.ready = false;
 mainImage.onload = checkReady;
-mainImage.src = "pac.png";
+mainImage.src = "assets\\images\\pac.png";
 
 
 

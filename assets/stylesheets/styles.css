@@ -4,14 +4,14 @@ html {
 }
 
 body {
-	background-Image: url("fall_.gif");
+	background-Image: url("..\\images\\fall_.gif");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 #navigationBar {
-	background-color: black;
-	height: 60px;
+	background-color: lightCoral;
+	height: 40px;
 	width: 100%;
 }
 
@@ -32,17 +32,18 @@ li.navigationBar:last-child{
 	border-right: none;
 }
 
-
-
-
 .navigationButton {
-	background-color: lightCoral;
+	/*background-color: lightCoral;*/
 	border: none;
 	color: white;
+	height: 40px;
 	padding: 10px 20px;
 	text-align: center;
 	display: inline-block;
 	font-size: 15px;
-	margin: 5px 10px;
 	cursor: pointer;
+}
+
+.navigationButton:hover{
+	background-color: black;
 }
